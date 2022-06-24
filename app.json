@@ -1,0 +1,49 @@
+{
+    "pages": [
+        "pages/home/index",
+        "pages/my/index",
+        "pages/login/index",
+        "pages/message/index",
+        "pages/message/chat",
+        "pages/my/select",
+        "pages/my/selected",
+        "pages/my/myself",
+        "pages/register/index"
+    ],
+    "subPackages": [],
+    "window": {
+        "navigationBarTextStyle": "black",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    },
+    "tabBar": {
+        "color": "#9F9F9F",
+        "selectedColor": "#F4BF48",
+        "list": [
+            {
+                "pagePath": "pages/home/index",
+                "iconPath": "static/tabBarIcon/home.png",
+                "selectedIconPath": "static/tabBarIcon/homeSelect.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/message/index",
+                "iconPath": "static/tabBarIcon/message.png",
+                "selectedIconPath": "static/tabBarIcon/messageSelect.png",
+                "text": "消息"
+            },
+            {
+                "pagePath": "pages/my/index",
+                "iconPath": "static/tabBarIcon/my.png",
+                "selectedIconPath": "static/tabBarIcon/mySelect.png",
+                "text": "我的"
+            }
+        ]
+    },
+    "permission": {},
+    "usingComponents": {
+        "w-input": "/components/watch-login/watch-input",
+        "w-button": "/components/watch-login/watch-button"
+    },
+    "sitemapLocation": "sitemap.json"
+}
